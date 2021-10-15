@@ -5,7 +5,7 @@ Eu executei por diversos dias, com um volume controlado de exclusões diárias p
 
 ## Motivações
 Estava com uma conta cheia de tweets velhos os quais foram feitos por um de meus robôs.
-Precisava limpar a conta pois estava me incomodando aquela quantidade de tweets feitos por robô. Então decidi criar esse script
+Precisava limpar a conta pois estava me incomodando aquela quantidade de tweets. Então decidi criar esse script.
 Usei jQuery por praticidade.
 
 ## Como usar?
@@ -19,3 +19,12 @@ Usei jQuery por praticidade.
 8. Cole no console e antes de executar, coloque o seu nome de usuário do twitter na variável **userName**
 9. Execute o comando
 10. Assista seus tweets sendo deletados
+
+## ⚠ Importante ⚠
+- Não feche a aba/guia página
+- Não mude de pagina na aba/guia que está executando o script
+- Supervisione a exclusão dos tweets ou seja, role o scroll da página para carregar mais tweets e certifiquesse de que está acontecendo corretamente.
+- **Não** tente excluir todos os tweets no mesmo dia ou isso pode acarretar em penalidades na sua conta. Faça aos poucos, no decorrer de alguns dias!
+- Não clique em nenhum link enquanto o script executa, pois pode estragar a execução
+- Essa não é uma solução oficial para o problema, foi a forma mais criativa e de melhor custo-benefício para mim
+- Eu criei para excluir TODOS os meus tweets, não existe filtro
