@@ -24,6 +24,8 @@ Usei jQuery por praticidade.
 
 # ⚠ Importante ⚠
 - Não me responsabilizo pela execução do script **Use por sua conta e risco**
+- Se você não entendeu NADA dos passos acima ou tem dúvidas, você pode: Ignorar toda essa solução e continuar a fazer o que você estava fazendo, entrar em contato comigo ou estudar sobre o assunto e tentar enteder.
+- Não é recomendado para pessoas que não entenderam o que está acontecendo nesse script, rs 
 - Não feche a aba/guia página
 - Não mude de pagina na aba/guia que está executando o script
 - Supervisione a exclusão dos tweets ou seja, role o scroll da página para carregar mais tweets e certifiquesse de que está acontecendo corretamente.
