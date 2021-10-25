@@ -10,7 +10,7 @@ Estava com uma conta cheia de tweets velhos os quais foram feitos por um de meus
 Precisava limpar a conta pois estava me incomodando aquela quantidade de tweets. Então decidi criar esse script.
 Usei jQuery por praticidade.
 
-## Como usar?
+## Como usar (script.js)?
 1. Abra seu perfil do twitter em qualquer browser (https://twitter.com/seuusuario/with_replies)
 2. Com a pagina aberta, abra o `DEVTools` (Geralmente F12)
 3. Injete o `jQuery` na página (mais instruções sobre injeção de scripts serão adicionadas futuramente)
@@ -21,6 +21,11 @@ Usei jQuery por praticidade.
 8. Cole no console e antes de executar, coloque o seu nome de usuário do twitter na variável `**userName**`
 9. Execute o comando
 10. Assista seus tweets sendo deletados
+
+## Como usar (script-request.js)?
+1. Abra seu perfil do twitter em qualquer browser (https://twitter.com/seuusuario/with_replies)
+2. Com a pagina aberta, abra o `DEVTools` (Geralmente F12)
+3. 🚧 [...] em construção 🚧
 
 # ⚠ Importante ⚠
 - Não me responsabilizo pela execução do script **Use por sua conta e risco**
