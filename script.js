@@ -7,8 +7,12 @@ setInterval(() => {
     var profileLinkAtTweetCard = jQuery(`[data-testid="primaryColumn"] article [href*="/${userName}"]`).eq(0);
     var profileTweetCard = profileLinkAtTweetCard.closest('article');
     var profileTweetCardActionMenuButton = profileTweetCard.find('[aria-label="More"]');
+    jQuery('html, body').animate({ 
+      scrollTop: profileTweetCardActionMenuButton.offset().top - 120
+    }, 750)
+    .promise()
     // Open action menu click
-    profileTweetCardActionMenuButton.click();
+    .done(() => profileTweetCardActionMenuButton.click())
   }, 1000);
 
   setTimeout(() => {
