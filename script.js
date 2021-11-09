@@ -44,7 +44,7 @@ _ttc.stop = () => (_ttc.enable = false);
       $(deleteButtonAtActionMenu).click();
 
       await wait(1);
-      const deleButtonAtDialog = $('[role="dialog"] [role="button"]').eq(1);
+      const deleButtonAtDialog = $('[role="alertdialog"] [role="button"]').eq(1);
       $(deleButtonAtDialog).click();
       break;
     }
